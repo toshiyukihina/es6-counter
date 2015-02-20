@@ -2,14 +2,24 @@
   "name": "es6-counter",
   "version": "0.0.1",
   "description": "Counter module written in ES6 javascript",
-  "main": "index.js",
-  "scripts": {
-    "build": "babel src --out-dir lib --source-maps"
+  "homepage": "https://github.com/toshiyukihina/es6-counter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toshiyukihina/es6-counter.git"
   },
-  "files": ["lib"],
+  "bugs": "https://github.com/toshiyukihina/es6-counter/issues",
+  "main": "lib/counter.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps-inline",
+    "docs": "jsdoc2md -t template/README.template.md lib/counter.js > README.md"
+  },
+  "files": [
+    "lib"
+  ],
   "author": "toshiyukihina",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^4.3.0"
+    "babel": "^4.3.0",
+    "jsdoc-to-markdown": "^0.5.11"
   }
 }

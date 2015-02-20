@@ -3,6 +3,7 @@
 
 /**
  * Counter class holds the value and provides the methods to manipulate the value as a counter.
+ * @class Counter
  */
 export class Counter {
 
