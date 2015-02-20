@@ -1,0 +1,15 @@
+{
+  "name": "es6-counter",
+  "version": "0.0.1",
+  "description": "Counter module written in ES6 javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps"
+  },
+  "files": ["lib"],
+  "author": "toshiyukihina",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^4.3.0"
+  }
+}
