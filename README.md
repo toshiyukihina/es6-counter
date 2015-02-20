@@ -1,6 +1,7 @@
 # counter
 
 [![Build Status](https://drone.io/github.com/toshiyukihina/es6-counter/status.png)](https://drone.io/github.com/toshiyukihina/es6-counter/latest)
+[![License][license-image]][license-url]
 
 `Counter` class written in Javacript ES6. This is just a hello program for me.
 
