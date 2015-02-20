@@ -1,7 +1,5 @@
 # counter
 
-[![Build Status](https://drone.io/github.com/toshiyukihina/es6-counter/status.png)](https://drone.io/github.com/toshiyukihina/es6-counter/latest)
-
 `Counter` class written in Javacript ES6. This is just a hello program for me.
 
 # Usage - API
@@ -43,6 +41,33 @@ Update the value held the counter.
 Get the value held by the counter.
 
 **Returns**: `Integer`  
+
+  <a name="increment.value"></a>
+####increment.value()
+Increment the value held the counter.
+
+**Returns**: [Counter](#Counter) - self instance.  
+
+  <a name="decrement.value"></a>
+####decrement.value()
+Decrement the value held the counter.
+
+**Returns**: [Counter](#Counter) - self instance.  
+
+  <a name="ReverseCounter"></a>
+####class: ReverseCounter
+**Members**
+
+* [class: ReverseCounter](#ReverseCounter)
+
+
+  <a name="<anonymous>..ReverseCounter"></a>
+####&lt;anonymous&gt;~ReverseCounter()
+**Params**
+
+-  `Integer`  
+
+**Scope**: inner function of &#x60;&lt;anonymous&gt;&#x60;  
 
   <a name="increment.value"></a>
 ####increment.value()
