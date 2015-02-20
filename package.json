@@ -11,6 +11,7 @@
   "main": "lib/counter.js",
   "scripts": {
     "build": "babel src --out-dir lib --source-maps-inline",
+    "test": "mocha --compilers js:babel/register test/**/*.es6",
     "watch": "babel src --out-dir lib --watch --source-maps-inline",
     "docs": "jsdoc2md -t template/README.template.md lib/counter.js > README.md"
   },
@@ -21,6 +22,8 @@
   "license": "MIT",
   "devDependencies": {
     "babel": "^4.3.0",
-    "jsdoc-to-markdown": "^0.5.11"
+    "jsdoc-to-markdown": "^0.5.11",
+    "mocha": "^2.1.0",
+    "source-map-support": "^0.2.9"
   }
 }
