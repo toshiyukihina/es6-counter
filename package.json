@@ -13,7 +13,7 @@
     "build": "babel src --out-dir lib --source-maps-inline",
     "test": "mocha --compilers js:babel/register test/**/*.es6",
     "watch": "babel src --out-dir lib --watch --source-maps-inline",
-    "docs": "jsdoc2md -t template/README.template.md lib/counter.js > README.md"
+    "docs": "jsdoc2md -t template/README.template.md lib/**/*.js > README.md"
   },
   "files": [
     "lib"

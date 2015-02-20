@@ -1,8 +1,5 @@
 # counter
 
-[![Build Status][drone-image]][drone-url]
-[![License][license-image]][license-url]
-
 `Counter` class written in Javacript ES6. This is just a hello program for me.
 
 # Usage - API
@@ -57,6 +54,33 @@ Decrement the value held the counter.
 
 **Returns**: [Counter](#Counter) - self instance.  
 
+  <a name="ReverseCounter"></a>
+####class: ReverseCounter
+**Members**
+
+* [class: ReverseCounter](#ReverseCounter)
+
+
+  <a name="<anonymous>..ReverseCounter"></a>
+####&lt;anonymous&gt;~ReverseCounter()
+**Params**
+
+-  `Integer`  
+
+**Scope**: inner function of &#x60;&lt;anonymous&gt;&#x60;  
+
+  <a name="increment.value"></a>
+####increment.value()
+Increment the value held the counter.
+
+**Returns**: [Counter](#Counter) - self instance.  
+
+  <a name="decrement.value"></a>
+####decrement.value()
+Decrement the value held the counter.
+
+**Returns**: [Counter](#Counter) - self instance.  
+
 
 # Example
 
@@ -74,9 +98,3 @@ c.decrement(); //=> 9
 # License
 
 MIT
-
-[drone-url]:https://drone.io/github.com/toshiyukihina/es6-counter/latest
-[drone-image]:https://drone.io/github.com/toshiyukihina/es6-counter/status.png
-
-[license-url]: https://github.com/twada/power-assert/blob/master/MIT-LICENSE.txt
-[license-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
