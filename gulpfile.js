@@ -20,7 +20,7 @@ gulp.task('clean', function() {
   });
 });
 
-gulp.task('test', function() {
+gulp.task('test', ['clean', 'build'], function() {
   require('babel/register');
   return gulp.src('test/**/*.js')
     .pipe(mocha());
