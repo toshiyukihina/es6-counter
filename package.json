@@ -1,6 +1,6 @@
 {
   "name": "es6-counter",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Counter module written in ES6 javascript",
   "homepage": "https://github.com/toshiyukihina/es6-counter",
   "repository": {
