@@ -4,6 +4,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var mocha = require('gulp-mocha');
 var jsdoc2md = require('gulp-jsdoc-to-markdown');
 var concat = require('gulp-concat');
+var del = require('del');
 
 gulp.task('build', function() {
   return gulp.src('src/**/*.js')
@@ -14,7 +15,9 @@ gulp.task('build', function() {
 });
 
 gulp.task('clean', function() {
-  // TODO
+  del(['docs', 'lib'], function(err, paths) {
+    console.log('Deleted files/folders:\n%s', paths.join('\n'));
+  });
 });
 
 gulp.task('test', function() {
