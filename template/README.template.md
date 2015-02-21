@@ -5,12 +5,14 @@
 [![Build Status][drone-image]][drone-url]
 [![License][license-image]][license-url]
 
+
 # Usage - API
 
 {{heading-depth-set 2~}}
 {{#this}}
   {{>exported~}}
 {{/this}}
+
 
 # Example
 
@@ -24,6 +26,7 @@ console.log(c.getValue()); //=> 10
 
 c.decrement(); //=> 9
 ```
+
 
 # License
 

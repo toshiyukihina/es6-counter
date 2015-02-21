@@ -5,6 +5,7 @@
 [![Build Status][drone-image]][drone-url]
 [![License][license-image]][license-url]
 
+
 # Usage - API
 
 
@@ -85,6 +86,7 @@ Decrement the value held the counter.
 **Returns**: [Counter](#Counter) - self instance.  
 
 
+
 # Example
 
 ```js
@@ -97,6 +99,7 @@ console.log(c.getValue()); //=> 10
 
 c.decrement(); //=> 9
 ```
+
 
 # License
 
